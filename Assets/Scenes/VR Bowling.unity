@@ -1358,7 +1358,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 567
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
@@ -2115,7 +2115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17f025e142f811841a7d024f435402da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 3
   inputSource: 4
   gravity: -9.81
   groundLayer:
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_Controllers:
   - {fileID: 640422252}
   m_TurnAmount: 45
-  m_DebounceTime: 2
+  m_DebounceTime: 0.2
   m_DeadZone: 0.75
 --- !u!1 &1167007818
 GameObject:
@@ -2189,7 +2189,7 @@ GameObject:
   - component: {fileID: 1217909472}
   - component: {fileID: 1217909471}
   - component: {fileID: 1217909470}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Teleportation Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3812,7 +3812,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 567
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
