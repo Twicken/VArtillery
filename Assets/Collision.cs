@@ -10,18 +10,18 @@ public class Collision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        terrain = GameObject.Find("Terrain");
     }
-
 
     public void OnCollisionEnter(UnityEngine.Collision c)
     {
-      
+
         if (c.transform.tag == "Terrain")
         {
             float TextureDamageRadius = 5f;
             float TerrainDamageRadius = 5f;
-            c.gameObject.GetComponent("TerrainDeformer").DestroyTerrain(c.contacts[0].point, TerrainDamageRadius, TextureDamageRadius);
+            terrain.GetComponent<TerrainDeformer>().DestroyTerrain(c.contacts[0].point, TerrainDamageRadius, TextureDamageRadius);
         }
     }
+
 }

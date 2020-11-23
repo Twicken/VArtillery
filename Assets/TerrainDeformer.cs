@@ -25,8 +25,10 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 
 public class TerrainDeformer : MonoBehaviour
 {
@@ -56,6 +58,8 @@ public class TerrainDeformer : MonoBehaviour
             alphaMapBackup = terr.terrainData.GetAlphamaps(0, 0, alphaMapWidth, alphaMapHeight);
         }
     }
+
+    
 
     //this has to be done because terrains for some reason or another terrains don't reset after you run the app
     void OnApplicationQuit()
