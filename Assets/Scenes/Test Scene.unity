@@ -2119,9 +2119,10 @@ GameObject:
   - component: {fileID: 1129919462}
   - component: {fileID: 1129919461}
   - component: {fileID: 1129919463}
+  - component: {fileID: 1129919464}
   m_Layer: 9
   m_Name: Terrain
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2162,7 +2163,7 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 37d7360e31214514b84e3fc71b9c25b0, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 429
+  m_TreeBillboardDistance: 166
   m_TreeCrossFadeLength: 30
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 80
@@ -2174,9 +2175,9 @@ Terrain:
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
-  m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: 168c629bb78080845a816a0a65ceae88, type: 2}
-  m_BakeLightProbesForTrees: 1
+  m_ReflectionProbeUsage: 3
+  m_MaterialTemplate: {fileID: 2100000, guid: 9459a287c3d6f064ab5b663131f3fac2, type: 2}
+  m_BakeLightProbesForTrees: 0
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
   m_ScaleInLightmap: 0.0256
@@ -2229,6 +2230,19 @@ MonoBehaviour:
   m_TeleportationProvider: {fileID: 0}
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
+--- !u!114 &1129919464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129919459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fde7144d79de924a8995a40d78c7d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrainDeformationTextureNum: 1
 --- !u!1 &1167007818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,7 +2705,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3df3732542206554193ebf7c0908b9b5, type: 2}
+  - {fileID: 2100000, guid: 9459a287c3d6f064ab5b663131f3fac2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
