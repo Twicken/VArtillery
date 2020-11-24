@@ -33,15 +33,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1117D45E:
-        m_Texture: {fileID: 2800000, guid: a22f74dadcc373b4da1943778db036d4, type: 3}
+        m_Texture: {fileID: 2800000, guid: a18478f267c56e846a56b6295f5afd8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_79D71CA1:
-        m_Texture: {fileID: 2800000, guid: 464fd65efa4824446bff2e852018a3d0, type: 3}
+        m_Texture: {fileID: 2800000, guid: b7ee70b4fd03b1c4aafa27cb4db3a673, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_806D7B31:
-        m_Texture: {fileID: 2800000, guid: 58780efb29e14bd4d8015aa66cf60699, type: 3}
+        m_Texture: {fileID: 2800000, guid: a18478f267c56e846a56b6295f5afd8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -81,6 +81,7 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
+    - _ColorMask: 15
     - _Cull: 2
     - _Cutoff: 0.5
     - _DstBlend: 0
@@ -97,7 +98,13 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
     - _Surface: 0
+    - _UseUIAlphaClip: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:

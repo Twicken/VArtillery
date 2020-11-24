@@ -1425,6 +1425,10 @@ PrefabInstance:
       propertyPath: audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 087da177a63532840aeaca515d36dee7, type: 3}
+    - target: {fileID: 2224439857671311012, guid: 95630696a556fc94bb5a9c5c9eada1b5, type: 3}
+      propertyPath: speed
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 7096880562904443172, guid: 95630696a556fc94bb5a9c5c9eada1b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2888759

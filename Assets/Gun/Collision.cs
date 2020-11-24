@@ -6,6 +6,8 @@ public class Collision : MonoBehaviour
 {
 
     public GameObject terrain;
+    public float TextureDamageRadius = 22f;
+    public float TerrainDamageRadius = 22f;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +20,9 @@ public class Collision : MonoBehaviour
 
         if (c.transform.tag == "Terrain")
         {
-            float TextureDamageRadius = 5f;
-            float TerrainDamageRadius = 5f;
+
             terrain.GetComponent<TerrainDeformer>().DestroyTerrain(c.contacts[0].point, TerrainDamageRadius, TextureDamageRadius);
+            Destroy(this.gameObject);
         }
     }
 
