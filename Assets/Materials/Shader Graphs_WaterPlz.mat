@@ -11,18 +11,37 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: 0761a89d68e273844b71b9e17ec8bc0d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - Texture2D_3C720604:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_BAE6264A:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainNormal:
+        m_Texture: {fileID: 2800000, guid: 49aca908c7bbcc744b38d83d18cd6798, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondNormal:
+        m_Texture: {fileID: 2800000, guid: d2e055fe3522cdc458673c9d92a7bbfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_5632624D: 15
-    - Vector1_B01F3BE6: 2
+    - Vector1_390F82DE: 1
+    - Vector1_5632624D: 2
+    - Vector1_B01F3BE6: 1.656
+    - Vector1_BAD6E3DB: 0.5
+    - Vector1_C91DBB20: 1
     m_Colors:
-    - _DeepColor: {r: 0.043137237, g: 0.47728753, b: 0.972549, a: 0.72156864}
-    - _ShallowColor: {r: 0.04313727, g: 0.5148682, b: 0.972549, a: 0.8}
+    - _DeepColor: {r: 0.043137208, g: 0.51372534, b: 0.972549, a: 0.7372549}
+    - _ShallowColor: {r: 0.043137208, g: 0.514868, b: 0.972549, a: 0.54901963}
   m_BuildTextureStacks: []
