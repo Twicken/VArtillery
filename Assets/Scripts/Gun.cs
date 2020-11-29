@@ -10,13 +10,14 @@ public class Gun : MonoBehaviour
     public Transform barrel;
     public AudioSource audioSource;
     public AudioClip audioClip;
+    public int life = 10;
 
     public void Fire()
     {
         GameObject spawnedBullet = Instantiate(bullet, barrel.position, barrel.rotation);
         spawnedBullet.GetComponent<Rigidbody>().velocity = speed * barrel.forward;
         audioSource.PlayOneShot(audioClip);
-        Destroy(spawnedBullet, 2);
+        Destroy(spawnedBullet, life);
 
     }
     // Start is called before the first frame update
