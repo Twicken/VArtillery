@@ -126,3 +126,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   terrain: {fileID: 0}
+  TextureDamageRadius: 5
+  TerrainDamageRadius: 5
