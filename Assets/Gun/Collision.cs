@@ -8,6 +8,7 @@ public class Collision : MonoBehaviour
     public GameObject terrain;
     public float TextureDamageRadius = 22f;
     public float TerrainDamageRadius = 22f;
+    public GameObject explosion;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,9 @@ public class Collision : MonoBehaviour
         {
 
             terrain.GetComponent<TerrainDeformer>().DestroyTerrain(c.contacts[0].point, TerrainDamageRadius, TextureDamageRadius);
+            GameObject explosionClone = Instantiate(explosion, c.contacts[0].point, Quaternion.Euler(new Vector3(0, 0, 0)));
+
+            Destroy(explosionClone, 2);
             Destroy(this.gameObject);
         }
     }
