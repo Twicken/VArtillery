@@ -6,6 +6,7 @@ public class Collision : MonoBehaviour
 {
 
     public GameObject terrain;
+    public GameObject bedrock;
     public float TextureDamageRadius = 22f;
     public float TerrainDamageRadius = 22f;
     public GameObject explosion;

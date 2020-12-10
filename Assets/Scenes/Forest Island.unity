@@ -890,6 +890,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632917680}
   - component: {fileID: 632917679}
+  - component: {fileID: 632917681}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -923,6 +924,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &632917681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632917678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02fb81172c80da741a3a406150ec3158, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &640422250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,7 +1248,7 @@ CharacterController:
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
+  m_MinMoveDistance: 0.0001
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &880178778
 MonoBehaviour:
