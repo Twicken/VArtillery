@@ -26,22 +26,22 @@ public class XROffsetGrabInteractable : XRGrabInteractable
 
 
     }
-    protected override void OnHoverEnter(XRBaseInteractor interactor)
-    {
-        if (interactor is XRDirectInteractor)
-        {
-            attachTransform.position = interactor.transform.position;
-            attachTransform.rotation = interactor.transform.rotation;
-        }
-        else
-        {
-            attachTransform.localPosition = initialAttachLocalPos;
-            attachTransform.localRotation = initialAttachLocalRot;
-
-        }
-
-       
-
-        base.OnHoverEnter(interactor);
-    }
+    //protected override void OnHoverEnter(XRBaseInteractor interactor)
+    //{
+    //    if (interactor is XRDirectInteractor)
+    //    {
+    //        attachTransform.position = interactor.transform.position;
+    //        attachTransform.rotation = interactor.transform.rotation;
+    //    }
+    //    else
+    //    {
+    //        attachTransform.localPosition = initialAttachLocalPos;
+    //        attachTransform.localRotation = initialAttachLocalRot;
+//
+  //      }
+  //
+    //   
+    //
+      //  base.OnHoverEnter(interactor);
+    //}
 }
