@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.816
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31674433, g: 0.24180911, b: 0.5179952, a: 0.816}
+  m_IndirectSpecularColor: {r: 0.09194574, g: 0.22973202, b: 0.5786917, a: 0.816}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2563,7 +2563,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectActionTrigger: 1
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
