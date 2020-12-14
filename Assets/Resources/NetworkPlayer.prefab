@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &8637096952724856656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779154889595223111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 2
+    Name: Grip
+  - Type: 1
+    SynchronizeType: 2
+    Name: Trigger
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!1 &4320355692422386067
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +167,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6237867461984661972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7233623114770840933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8c4a61274f60b4ea5fb4299cfdbf14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowLayerWeightsInspector: 1
+  ShowParameterInspector: 1
+  m_SynchronizeParameters:
+  - Type: 1
+    SynchronizeType: 2
+    Name: Grip
+  - Type: 1
+    SynchronizeType: 2
+    Name: Trigger
+  m_SynchronizeLayers:
+  - SynchronizeType: 0
+    LayerIndex: 0
 --- !u!1 &8439274778787974817
 GameObject:
   m_ObjectHideFlags: 0
@@ -296,6 +344,8 @@ MonoBehaviour:
   - {fileID: 7650657409072294143}
   - {fileID: 3132807861950884830}
   - {fileID: 9206274642403720213}
+  - {fileID: 6237867461984661972}
+  - {fileID: 8637096952724856656}
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -314,6 +364,8 @@ MonoBehaviour:
   head: {fileID: 2404015349036815140}
   leftHand: {fileID: 4865693009497444886}
   rightHand: {fileID: 5139867031156177166}
+  leftHandAnimator: {fileID: 2304743294539901921}
+  rightHandAnimator: {fileID: 880568377046005576}
 --- !u!1001 &3480899725717940438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -371,9 +423,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ba8e7614e1eccf488138bffe15c21ee, type: 3}
+--- !u!1 &779154889595223111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4224023394791249041, guid: 7ba8e7614e1eccf488138bffe15c21ee, type: 3}
+  m_PrefabInstance: {fileID: 3480899725717940438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &115912246301075197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3590897538980941355, guid: 7ba8e7614e1eccf488138bffe15c21ee, type: 3}
+  m_PrefabInstance: {fileID: 3480899725717940438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &880568377046005576 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: -4866478469465710690, guid: 7ba8e7614e1eccf488138bffe15c21ee, type: 3}
   m_PrefabInstance: {fileID: 3480899725717940438}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8466674645827220137
@@ -433,8 +495,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcd8d3b6980000841876e2975e5a2bb4, type: 3}
+--- !u!1 &7233623114770840933 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1233236837509500876, guid: bcd8d3b6980000841876e2975e5a2bb4, type: 3}
+  m_PrefabInstance: {fileID: 8466674645827220137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8009983205292124127 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1897852667948848502, guid: bcd8d3b6980000841876e2975e5a2bb4, type: 3}
+  m_PrefabInstance: {fileID: 8466674645827220137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2304743294539901921 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7675185361421982024, guid: bcd8d3b6980000841876e2975e5a2bb4, type: 3}
   m_PrefabInstance: {fileID: 8466674645827220137}
   m_PrefabAsset: {fileID: 0}
