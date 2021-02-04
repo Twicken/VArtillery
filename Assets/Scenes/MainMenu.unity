@@ -2724,6 +2724,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1274751104}
+  - component: {fileID: 1274751105}
   m_Layer: 0
   m_Name: Menu
   m_TagString: Untagged
@@ -2745,6 +2746,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274751105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274751103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d77a5baa6a9e48933d5b096a279cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1325271155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2958,6 +2971,7 @@ GameObject:
   - component: {fileID: 1336287544}
   - component: {fileID: 1336287543}
   - component: {fileID: 1336287542}
+  - component: {fileID: 1336287545}
   m_Layer: 8
   m_Name: Button
   m_TagString: Untagged
@@ -3027,7 +3041,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1336287543}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1274751105}
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: Scene1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1336287543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3066,6 +3092,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336287540}
   m_CullTransparentMesh: 0
+--- !u!114 &1336287545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336287540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994d77a5baa6a9e48933d5b096a279cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1551177002
 GameObject:
   m_ObjectHideFlags: 0
