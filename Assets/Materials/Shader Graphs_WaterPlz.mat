@@ -36,11 +36,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_390F82DE: 1
+    - Vector1_390F82DE: 0.43
     - Vector1_5632624D: 2
-    - Vector1_B01F3BE6: 1.656
+    - Vector1_B01F3BE6: 1.689
     - Vector1_BAD6E3DB: 0.5
-    - Vector1_C91DBB20: 1
+    - Vector1_C91DBB20: 0.142
     m_Colors:
     - _DeepColor: {r: 0.043137237, g: 0.55294114, b: 0.972549, a: 0.8784314}
     - _ShallowColor: {r: 0.043137237, g: 0.55294114, b: 0.972549, a: 0.8666667}
